@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width:100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(
+  160deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(239deg 100% 21%) 5%,
+  hsl(239deg 100% 23%) 11%,
+  hsl(238deg 100% 24%) 17%,
+  hsl(237deg 100% 25%) 23%,
+  hsl(237deg 100% 26%) 29%,
+  hsl(236deg 100% 28%) 36%,
+  hsl(236deg 100% 29%) 43%,
+  hsl(235deg 100% 30%) 51%,
+  hsl(234deg 100% 32%) 58%,
+  hsl(234deg 100% 33%) 66%,
+  hsl(233deg 100% 34%) 74%,
+  hsl(232deg 100% 36%) 81%,
+  hsl(232deg 100% 37%) 87%,
+  hsl(231deg 100% 38%) 92%,
+  hsl(231deg 100% 39%) 97%,
+  hsl(230deg 100% 41%) 100%
+);
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.wrapper,form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    }
+    .wrapper{
+        background-image: linear-gradient(
+            160deg,
+            hsl(240deg 100% 61%) 0%,
+            hsl(239deg 94% 59%) 5%,
+            hsl(238deg 89% 57%) 11%,
+            hsl(237deg 85% 55%) 17%,
+            hsl(236deg 81% 53%) 23%,
+            hsl(236deg 77% 51%) 29%,
+            hsl(235deg 75% 49%) 36%,
+            hsl(234deg 78% 47%) 43%,
+            hsl(233deg 80% 45%) 51%,
+            hsl(232deg 82% 44%) 58%,
+            hsl(231deg 85% 42%) 66%,
+            hsl(230deg 87% 40%) 74%,
+            hsl(229deg 89% 38%) 81%,
+            hsl(229deg 92% 37%) 87%,
+            hsl(228deg 95% 35%) 92%,
+            hsl(227deg 97% 33%) 97%,
+            hsl(226deg 100% 32%) 100%
+          );
+        padding:2rem;
+        border-radius: 8px;
+        border: 1px solid blue;
+}
+h1,h2,p{
+    color:white;
+    text-align: center;
+    font-family: 'Dokdo', cursive;
+}
+h1{
+    font-size:6rem;
+    font-family: 'Dokdo', cursive;
+    margin-bottom: 3rem;
+}
+h2{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
